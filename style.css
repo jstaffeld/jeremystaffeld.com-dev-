@@ -1,0 +1,58 @@
+/* === === === === === === ===
+Dev Launch v1.5[lenore]
+Copyright 2015 Jeremy Staffeld
+written for - www.jeremystaffeld.com/dev/
+=== === === === === === === */
+
+#wrapper {
+  width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+.text1 {
+  font-family: 'Reenie Beanie', cursive;
+	font-size: 25px;
+  position: relative;
+  text-align: center;
+	margin: 250px 0 0 0;
+}
+.raven {
+  z-index: -1;
+  width: 50%;
+	position: absolute;
+	right: 150px;
+	top: -10px;
+}
+.icons {
+	float:
+}
+.icons img {
+	width: 50px;
+}
+.icons ul li {
+	display: inline;
+	opacity: .4;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+.icons ul li:hover {
+	opacity: 1;
+}
+ul {
+	padding: 0;
+}
+.about {
+    display: none;
+    text-align: justify;
+    width: 300px;
+    position: relative;
+    margin-top: 40px;
+    margin: 0 auto;
+    opacity: .5;
+}
+.text1:hover ~ .about {
+    display: block;
+}
